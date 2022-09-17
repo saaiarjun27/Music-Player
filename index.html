@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reproductor de Musica</title>
+    <link rel="stylesheet" href="Music Player Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="player">
+            <p class="close" onclick="closePlayer()">
+                &#10006;
+            </p>
+            <div class="main-thumbnail">
+                <img class="main-thumbnail-img" src="Miracle Aligner.jpg">
+            </div>
+            <div class="details">
+                <h1 class="song-name">Song Name</h1>
+                <h3 class="song-artist">Artist</h3>
+            </div>
+            <audio class="audio" controls loop></audio>
+                
+        </div>
+    
+        <div class="section">
+            <h1 class="title">Reproductor de Música</h1>
+            <div class="songs">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="Music Player Script.js"></script>
+</body>
+</html>
